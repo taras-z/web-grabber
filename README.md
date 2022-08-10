@@ -9,9 +9,9 @@ NB. The user, password and key must be specified in [`docker-compose.yml`](docke
 
 ## News grabbing
  
-The initialization script is [`.\db\init\utils\init_db_sources.py`](db\init\utils\init_db_sources.py).
+The initialization script is [`./db/init/utils/init_db_sources.py`](db/init/utils/init_db_sources.py).
 
-The DAG described in [`.\dags\grab_rss.py`](dags\grab_rss.py).
+The DAG described in [`./dags/grab_rss.py`](dags/grab_rss.py).
 
 The result can be accessed in Redis DB #1.
 
@@ -20,6 +20,6 @@ The result can be accessed in Redis DB #1.
 
 The initialization isn't required.
 
-The DAG described in [`.\dags\grab_currency_rate.py`](dags\grab_currency_rate.py).
+The DAG described in [`./dags/grab_currency_rate.py`](dags/grab_currency_rate.py).
 
 The result can be accessed in Redis DB #2.
